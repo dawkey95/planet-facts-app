@@ -8,13 +8,26 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
+				// GRAYSCALE
 				black: 'var(--black)',
 				white: 'var(--white)',
+				lightGray: 'var(--light-gray)',
 				darkGray: 'var(--dark-gray)',
+
+				// COLORS
+				teal: 'var(--teal)',
+				lightBlue: 'var(--light-blue)',
+				darkblue: 'var(--dark-blue)',
+				purple: 'var(--purple)',
+				orange: 'var(--orange)',
+				redOrange: 'var(--red-orange)',
+				red: 'var(--red)',
+				flameRed: 'var(--flame-red)',
 			},
 
 			fontFamily: {
-				sans: ['var(--font-inter)'],
+				antonio: ['var(--font-antonio)'],
+				spartan: ['var(--font-spartan)'],
 			},
 
 			fontSize: {
@@ -80,5 +93,5 @@ module.exports = {
 			},
 		},
 	},
-	plugins: [],
+	plugins: [require('daisyui')],
 };

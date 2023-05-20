@@ -3,8 +3,23 @@
 @tailwind utilities;
 
 :root {
-	/* COLORS */
-	--black: #000000;
+	/* GRAYSCALE */
+	--black: #070724;
 	--white: #ffffff;
-	--dark-gray: #303030;
+	--light-gray: #838391;
+	--dark-gray: #38384f;
+
+	/* COLORS */
+	--teal: #1ec2a4;
+	--light-blue: #419ebb;
+	--dark-blue: #2d68f0;
+	--purple: #6d2ed5;
+	--orange: #eda249;
+	--red-orange: #d14c32;
+	--red: #d83a34;
+	--flame-red: #cd5120;
+}
+
+.btn-outline {
+	border-color: rgba(255, 255, 255, 0.5);
 }
