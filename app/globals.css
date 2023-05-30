@@ -18,6 +18,16 @@
 	--red-orange: #d14c32;
 	--red: #d83a34;
 	--flame-red: #cd5120;
+
+	/* PLANETS */
+	--mercury: #def4fc;
+	--venus: #f7cc7f;
+	--earth: #545bfe;
+	--mars: #ff6a45;
+	--jupiter: #ecad7a;
+	--saturn: #fccb6b;
+	--uranus: #65f0d5;
+	--neptune: #497efa;
 }
 
 .btn-outline {

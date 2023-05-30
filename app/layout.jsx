@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang='en'>
 			<body
-				className={`bg-black min-h-screen font-spartan ${spartan.variable} ${antonio.variable}`}
+				className={`bg-black overflow-x-clip min-h-screen font-spartan ${spartan.variable} ${antonio.variable}`}
 			>
 				{children}
 			</body>

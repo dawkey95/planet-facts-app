@@ -1,8 +1,10 @@
+import MyNavBar from '@/components/navbar';
+
 export default function PlanetLayout({ children }) {
 	return (
-		<div>
-			<nav>Nav Goes Here</nav>
+		<>
+			<MyNavBar />
 			{children}
-		</div>
+		</>
 	);
 }

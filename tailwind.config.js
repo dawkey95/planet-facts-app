@@ -23,6 +23,17 @@ module.exports = {
 				redOrange: 'var(--red-orange)',
 				red: 'var(--red)',
 				flameRed: 'var(--flame-red)',
+
+				planets: {
+					mercury: 'var(--mercury)',
+					venus: 'var(--venus)',
+					earth: 'var(--earth)',
+					mars: 'var(--mars)',
+					jupiter: 'var(--jupiter)',
+					saturn: 'var(--saturn)',
+					uranus: 'var(--uranus)',
+					neptune: 'var(--neptune)',
+				},
 			},
 
 			fontFamily: {
@@ -32,61 +43,53 @@ module.exports = {
 
 			fontSize: {
 				h1: [
-					'12.5rem',
+					'5rem',
 					{
-						lineHeight: '12.5rem',
-						letterSpacing: '-0.3125rem',
-						fontWeight: '700',
+						lineHeight: '6.5rem',
+						fontWeight: '400',
 					},
 				],
 
 				h2: [
-					'3.5rem',
+					'5rem',
 					{
-						lineHeight: '4.25rem',
-						fontWeight: '700',
+						lineHeight: '3.25rem',
+						letterSpacing: '-1.5px',
+						fontWeight: '400',
 					},
 				],
 
 				h3: [
-					'1.5rem',
+					'0.75rem',
 					{
-						lineHeight: '1.75rem',
-						letterSpacing: '0.3rem',
+						lineHeight: '1.5625rem',
+						letterSpacing: '2.5712px',
 						fontWeight: '700',
 					},
 				],
 
 				h4: [
-					'1.25rem',
+					'0.6875rem',
 					{
-						lineHeight: '1.75rem',
-						letterSpacing: '0.25rem',
-						fontWeight: '400',
-					},
-				],
-
-				h5: [
-					'1.125rem',
-					{
-						lineHeight: '1.75rem',
-						fontWeight: '700',
-					},
-				],
-
-				h6: [
-					'0.9375rem',
-					{
-						lineHeight: '1.75rem',
-						letterSpacing: '0.1875rem',
+						lineHeight: '1.5625rem',
+						letterSpacing: '1px',
 						fontWeight: '400',
 					},
 				],
 
 				body: [
-					'1.125rem',
+					'0.875rem',
 					{
-						lineHeight: '1.75rem',
+						lineHeight: '1.5625rem',
+						fontWeight: '400',
+					},
+				],
+
+				logo: [
+					'1.75rem',
+					{
+						lineHeight: '2.25rem',
+						letterSpacing: '-1.05px',
 						fontWeight: '400',
 					},
 				],

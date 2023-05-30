@@ -1,9 +1,7 @@
-import Button from '@/components/button';
 const Mercury = () => {
 	return (
 		<>
-			<div>Mercury</div>
-			<Button />
+			<div className='px-6'>Mercury</div>
 		</>
 	);
 };
